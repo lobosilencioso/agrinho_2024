@@ -60,7 +60,7 @@ header {
 }
 
 @media (max-width: 768px) {
-    .navlista .navbar .btn-pedido {
+    .navlista, .navbar .btn-pedido {
         display: none;
     }
 
