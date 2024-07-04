@@ -50,3 +50,11 @@ header {
     color: #1d1d1d;
     border-bottom: 3px solid #ffe100;
 }
+
+.btn-celular {
+    display: none;
+}
+
+.navcelular {
+    display: none;
+}
