@@ -75,5 +75,19 @@ header {
 }
 
 .navcelular.ativo {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.celularnavlista {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 12px 0
+}
+
+.celularnavlista .navitem {
+    list-style: none;
+    align-items: center;
 }
