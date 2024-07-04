@@ -58,3 +58,22 @@ header {
 .navcelular {
     display: none;
 }
+
+@media (max-widht: 768px) {
+    .navlista, .navbar .btn-pedido {
+        display: none;
+    }
+
+    .btn-celular {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        color: #e9a209;
+        cursor: pointer;
+    }
+}
+
+.navcelular.ativo {
+    display: block;
+}
