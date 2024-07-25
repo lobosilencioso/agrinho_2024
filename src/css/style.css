@@ -1,5 +1,27 @@
+:root {
+      
+    --cor-primaria-1: #fff9ea;
+    --cor-primaria-2: #ffcb45;
+    --cor-primaria-3: #ffe100;
+    --cor-primaria-4: #e9a209;
+
+    --cor-neutro-0: #fff;
+    --cor-neutro-1: #1d1d1d;
+    --cor-neutro-2: #434343;
+
+    --cor-whatsapp-0: #054e11;
+    --cor-whatsapp-1: #09801b;
+
+}
+
+
+
 body {
     background-color: #fff9ea;
+}
+
+section {
+    padding: 20px 8%;
 }
 
 .btn-pedido {
@@ -19,3 +41,37 @@ body {
 .btn-pedido:hover {
     background-color: #ffe100;
 }
+
+.social_btn {
+    display: flex;
+    gap: 18px;
+}
+
+.social_btn a {
+display: flex;
+text-decoration: none;
+color: var(--cor-neutro-1);
+font-size: 1.5rem;
+align-items: center;
+justify-content: center;
+width: 45px;
+height: 40px;
+border-radius: 10px;
+box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+transition:box-shadow 0.3s ease;
+}
+
+.social_btn a: :hover {
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.2);
+}
+
+.section_titulo {
+    color: var(--cor-primaria-4);
+    font-size: 1.6rem;
+
+}
+.section_subtitulo {
+        font-size: 2.2rem;
+    
+}
+    
