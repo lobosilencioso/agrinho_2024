@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    $('.btn-celular').on('click', function() {
-        $('navcelular').toggleClass('ativo');
-        $('.btn-celular').find('i').toggleClass('fa-x');
+    $('.btn_celular').on('click', function () {
+        $('.nav_celular').toggleClass('ativo');
+        $('.btn_celular').find('i').toggleClass('fa-x');
     });
 });
