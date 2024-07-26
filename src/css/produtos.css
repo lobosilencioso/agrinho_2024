@@ -57,7 +57,7 @@
     color: var(--cor-primaria-4);
 }
 
-.produtos_preco {
+.produto_preco {
     display: flex;
     align-items: center;
     gap: 20px;
