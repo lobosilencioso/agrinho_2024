@@ -1,0 +1,113 @@
+#caixa_produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.produtos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 20px;
+    background-color: var(--cor-neutra-0);
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.produto_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.produto_icone {
+    position: absolute;
+    background-color: var(--cor-primaria-4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--cor-primaria-1);
+    width: 70px;
+    height: 70px;
+    right: -10px;
+    top: -10px;
+    border-radius: 0px 37.5px 0px 42.5px;
+}
+
+.produto_descricao {
+    text-align: center;
+    color: var(--cor-neutra-2);
+}
+
+.estrelas {
+    color: var(--cor-primaria-4);
+}
+
+.produtos_preco {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.btn_pedido_whats {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-whatsapp-0);
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn_pedido_whats:hover {
+    background-color: var(--cor-whatsapp-1);
+}
+
+.btn_pedido_whats a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 1170px) {
+    .produtos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .produto {
+        width: calc(50% - 18px);
+    }
+}
+
+@media (max-width: 600px) {
+    .produto {
+        width: 100%;
+    }
+
+    .section_subtitulo {
+        text-align: center;
+    }
+}
