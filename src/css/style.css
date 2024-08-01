@@ -36,7 +36,7 @@ section {
 
 }
 
-.btn_pedido {
+.btn-pedido {
     border: none;
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@ section {
     transition: background-color 0.3s ease;
 }
 
-.btn_pedido:hover {
+.btn-pedido:hover {
     background-color: var(--cor-primaria-3);
 
 }
