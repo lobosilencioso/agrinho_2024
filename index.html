@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="src/css/style.css">
     <title>projeto Agrinho</title>
 </head>
+
 <body>
-    <header class="cabecalho">       
+    <header class="cabecalho">
         <nav class="navbar">
             <i class="fa-solid fa-burger" id="navlogo"> FOOD</i>
             <ul class="navlista">
                 <li class="navitem ativo"><a href="#home">Home</a></li>
                 <li class="navitem"><a href="#caixa_produtos">Produtos</a></li>
-                <li class="navitem"><a href="#caixa_testemunhos">Depoimentos</a></li>               
+                <li class="navitem"><a href="#caixa_testemunhos">Depoimentos</a></li>
                 <li class="navitem"><a href="#sobre">Sobre nós</a></li>
             </ul>
 
@@ -23,249 +29,259 @@
             <button class="btn-celular">
                 <i class="fa-solid fa-bars"></i>
             </button>
-        </nav> 
-<div class="navcelular">
-    <ul class="celularnavlista">
-        <li class="navitem ativo"><a href="#home">Home</a></li>
+        </nav>
+        <div class="navcelular">
+            <ul class="celularnavlista">
+                <li class="navitem ativo"><a href="#home">Home</a></li>
                 <li class="navitem"><a href="#caixa_produtos">Produtos</a></li>
-                <li class="navitem"><a href="#caixa_testemunhos">Depoimentos</a></li>               
+                <li class="navitem"><a href="#caixa_testemunhos">Depoimentos</a></li>
                 <li class="navitem"><a href="#sobre">Sobre nós</a></li>
-    </ul>
-    
-    <a href="#caixa_produtos"><button class="btn-pedido">peça aqui</button></a>
+            </ul>
 
-</div>        
-        
+            <a href="#caixa_produtos"><button class="btn-pedido">peça aqui</button></a>
+
+        </div>
+
     </header>
 
-<main id="conteudo">
-<section id="home">
-    <div class="inicial">
-        <h1 class="titulo"> o campo indo até <span id="vc">você</span></h1>
-        <p class="descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam vitae obcaecati aliquam soluta eos debitis quasi animi praesentium neque consectetur, repellat distinctio eius minima. Voluptatibus eos suscipit facere quasi ipsam.</p>
+    <main id="conteudo">
+        <section id="home">
+            <div class="inicial">
+                <h1 class="titulo"> o campo indo até <span id="vc">você</span></h1>
+                <p class="descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam vitae obcaecati
+                    aliquam soluta eos debitis quasi animi praesentium neque consectetur, repellat distinctio eius
+                    minima. Voluptatibus eos suscipit facere quasi ipsam.</p>
 
-        <div class="botao-inicio">
-            <a href="#caixa_produtos"><button class="btn-pedido">peça aqui</button></a>
-            
-        </div>
+                <div class="botao-inicio">
+                    <a href="#caixa_produtos"><button class="btn-pedido">peça aqui</button></a>
 
-        <div class="social_btn">
-            <a href="#">
-                <i class="fa-brands fa-facebook"></i></a>
+                </div>
+
+                <div class="social_btn">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i></a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+
+
+            </div>
+
+            <div id="banner">
+                <img src="src/imagens/banner.png" alt="">
+            </div>
+
+
+
+        </section>
+
+
+        <section id="caixa_produtos">
+            <h2 class="section_titulo">produtos a venda</h2>
+            <h3 class="section_subtitulo">O melhor de Maravilha pra você</h3>
+            <div class="produtos">
+                <div class="produto">
+                    <div class="produto_icone"><i class="fa-solid fa-carrot"></i>
+                    </div>
+
+                    <img src="src/imagens/cenoura.png" alt="cenoura" class="produto_img">
+
+                    <h3 class="produto_titulo">Cenouras</h3>
+                    <span class="produto_descricao">Embalagem de 1kg</span>
+
+                    <div class="estrelas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(25+)</span>
+                    </div>
+
+                    <div class="produto_preco">
+                        <span>R$ 5,00</span>
+                    </div>
+
+                    <button class="btn_pedido_whats">
+                        <i class="fa-brands fa-whatsapp"><a href="aqui vai o link do whatsapp">Pedir por
+                                Whatsapp</a></i>
+                    </button>
+
+                </div>
+                <div class="produto">
+                    <div class="produto_icone"><i class="fa-solid fa-cheese"></i>
+                    </div>
+
+                    <img src="src/imagens/queijo.png" alt="Queijo Minas" class="produto_img">
+
+                    <h3 class="produto_titulo">Queijo Minas</h3>
+                    <span class="produto_descricao">Peso liq. aprox. 350g</span>
+
+                    <div class="estrelas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(256+)</span>
+                    </div>
+
+                    <div class="produto_preco">
+                        <span>R$ 25,00</span>
+                    </div>
+
+                    <button class="btn_pedido_whats">
+                        <i class="fa-brands fa-whatsapp"><a href="aqui vai o link do whatsapp">Pedir por
+                                Whatsapp</a></i>
+                    </button>
+
+                </div>
+                <div class="produto">
+                    <div class="produto_icone"><i class="fa-solid fa-egg"></i>
+                    </div>
+
+                    <img src="src/imagens/ovo.png" alt="Ovo Caipira" class="produto_img">
+
+                    <h3 class="produto_titulo">Ovo Caipira</h3>
+                    <span class="produto_descricao">Embalagem com 12 unid.</span>
+
+                    <div class="estrelas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(137+)</span>
+                    </div>
+
+                    <div class="produto_preco">
+                        <span>R$ 15,00</span>
+                    </div>
+
+                    <button class="btn_pedido_whats">
+                        <i class="fa-brands fa-whatsapp"><a href="aqui vai o link do whatsapp">Pedir por
+                                Whatsapp</a></i>
+                    </button>
+
+                </div>
+                <div class="produto">
+                    <div class="produto_icone"><i class="fa-solid fa-seedling"></i>
+                    </div>
+
+                    <img src="src/imagens/mandioca.png" alt="Mandioca" class="produto_img">
+
+                    <h3 class="produto_titulo">Mandioca</h3>
+                    <span class="produto_descricao">Embalagem de 1kg</span>
+
+                    <div class="estrelas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(256+)</span>
+                    </div>
+
+                    <div class="produto_preco">
+                        <span>R$ 14,00</span>
+                    </div>
+
+                    <button class="btn_pedido_whats">
+                        <i class="fa-brands fa-whatsapp"><a href="aqui vai o link do whatsapp">Pedir por
+                                Whatsapp</a></i>
+                    </button>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="caixa_testemunhos">
+            <img src="src/imagens/testemunho.png" id="testemunho_img" alt="homem apontado">
+
+            <div class="testemunho_conteudo">
+                <h2 class="section_titulo">Depoimentos</h2>
+                <h3 class="section_subtitulo">O que nossos clientes dizem</h3>
+
+                <div id="caixa_feedbacks">
+                    <div class="feedback">
+                        <img src="src/imagens/test1.png" class="feedback_avatar" alt="testemunho1">
+
+                        <div class="feedback_conteudo">
+                            <p>
+                                fulano de tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam vitae obcaecati
+                                aliquam soluta eos debitis quasi animi praesentium neque consectetur, repellat
+                                distinctio eius minima. Voluptatibus eos suscipit facere quasi ipsam."
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/imagens/test2.png" class="feedback_avatar" alt="testemunho1">
+
+                        <div class="feedback_conteudo">
+                            <p>
+                                fulano de tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam vitae obcaecati
+                                aliquam soluta eos debitis quasi animi praesentium neque consectetur, repellat
+                                distinctio eius minima. Voluptatibus eos suscipit facere quasi ipsam."
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="sobre">
+            <div class="sobre_conteudo">
+                <h2 class="section_titulo">Sobre nós</h2>
+                <h3 class="section_subtitulo">Este projeto é fruto</h3>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="src/imagens/wave.svg" alt="">
+        <div id="footer_itens">
+            <span id="copyrigth">&copy2024 João vitor</span>
+            <div class="social_btn">
                 <a href="#">
-                    <i class="fa-brands fa-instagram"></i></a>
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
             </div>
-
-            
-    
-    </div>
-
-    <div id="banner">
-        <img src="src/imagens/banner.png" alt="">
-    </div>
-
-
-
-</section>
-
-
-<section id="caixa_produtos">
-    <h2 class="section_titulo">produtos a venda</h2>
-    <h3 class="section_subtitulo">O melhor de Maravilha pra você</h3>
-    <div class="produtos">
-        <div class="produto">
-            <div class="produto_icone"><i class="fa-solid fa-carrot"></i>
-            </div>
-    
-    <img src="src/imagens/cenoura.png" alt="cenoura" class="produto_img">
-    
-    <h3 class="produto_titulo">Cenouras</h3>
-    <span class="produto_descricao">Embalagem de 1kg</span>
-    
-    <div class="estrelas">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <span>(25+)</span>
-    </div>
-    
-    <div class="produto_preco">
-        <span>R$ 5,00</span>
-    </div>
-    
-    <button class="btn_pedido_whats">
-        <i class="fa-brands fa-whatsapp"><a href="aqui vai o link do whatsapp">Pedir por Whatsapp</a></i>
-    </button>
-    
         </div>
-        <div class="produto">
-            <div class="produto_icone"><i class="fa-solid fa-cheese"></i>
-            </div>
-    
-    <img src="src/imagens/queijo.png" alt="Queijo Minas" class="produto_img">
-    
-    <h3 class="produto_titulo">Queijo Minas</h3>
-    <span class="produto_descricao">Peso liq. aprox. 350g</span>
-    
-    <div class="estrelas">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <span>(256+)</span>
-    </div>
-    
-    <div class="produto_preco">
-        <span>R$ 25,00</span>
-    </div>
-    
-    <button class="btn_pedido_whats">
-        <i class="fa-brands fa-whatsapp"><a href="aqui vai o link do whatsapp">Pedir por Whatsapp</a></i>
-    </button>
-    
-        </div>
-        <div class="produto">
-            <div class="produto_icone"><i class="fa-solid fa-egg"></i>
-            </div>
-    
-    <img src="src/imagens/ovo.png" alt="Ovo Caipira" class="produto_img">
-    
-    <h3 class="produto_titulo">Ovo Caipira</h3>
-    <span class="produto_descricao">Embalagem com 12 unid.</span>
-    
-    <div class="estrelas">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <span>(137+)</span>
-    </div>
-    
-    <div class="produto_preco">
-        <span>R$ 15,00</span>
-    </div>
-    
-    <button class="btn_pedido_whats">
-        <i class="fa-brands fa-whatsapp"><a href="aqui vai o link do whatsapp">Pedir por Whatsapp</a></i>
-    </button>
-    
-        </div>
-        <div class="produto">
-            <div class="produto_icone"><i class="fa-solid fa-seedling"></i>
-            </div>
-    
-    <img src="src/imagens/mandioca.png" alt="Mandioca" class="produto_img">
-    
-    <h3 class="produto_titulo">Mandioca</h3>
-    <span class="produto_descricao">Embalagem de 1kg</span>
-    
-    <div class="estrelas">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <span>(256+)</span>
-    </div>
-    
-    <div class="produto_preco">
-        <span>R$ 14,00</span>
-    </div>
-    
-    <button class="btn_pedido_whats">
-        <i class="fa-brands fa-whatsapp"><a href="aqui vai o link do whatsapp">Pedir por Whatsapp</a></i>
-    </button>
-    
-        </div>
-    </div>
-
-</section>
-
-<section id="caixa_testemunhos">
-    <img src="src/imagens/testemunho.png" id="testemunho_img" alt="homem apontado">
-
-    <div class="testemunho_conteudo">
-    <h2 class="section_titulo">Depoimentos</h2>
-    <h3 class="section_subtitulo">O que nossos clientes dizem</h3>
-
-    <div id="caixa_feedbacks">
-        <div class="feedback">
-            <img src="src/imagens/test1.png" class="feedback_avatar" alt="testemunho1">
-
-            <div class="feedback_conteudo">
-                <p>
-                    fulano de tal
-                    <span>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i> 
-                    </span>
-                </p>
-                <p>
-                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam vitae obcaecati aliquam soluta eos debitis quasi animi praesentium neque consectetur, repellat distinctio eius minima. Voluptatibus eos suscipit facere quasi ipsam."
-                </p>
-
-            </div>
-
-        </div>
-
-        <div class="feedback">
-            <img src="src/imagens/test2.png" class="feedback_avatar" alt="testemunho1">
-
-            <div class="feedback_conteudo">
-                <p>
-                    fulano de tal
-                    <span>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </span>
-                </p>
-                <p>
-                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam vitae obcaecati aliquam soluta eos debitis quasi animi praesentium neque consectetur, repellat distinctio eius minima. Voluptatibus eos suscipit facere quasi ipsam."
-                </p>
-
-            </div>
-
-        </div>
-    </div>
-</div>
-
-</section>
-
-<section id="sobre">
-    <div class="sobre_conteudo">
-<h2 class="section_titulo">Sobre nós</h2>
-<h3 class="section_subtitulo">Este projeto é fruto</h3>
-    </div>
-</section>
-
-</main>
-
-<footer>
-    <img src="src/imagens/wave.svg" alt="">
-    <div id="footer_itens">
-        <span id="copyrigth">&copy2024 João vitor</span>
-        <div class="social_btn">
-            <a href="#">
-                <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="#">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-        </div>
-    </div>
-</footer>
+    </footer>
 
     <script src="src/js/main.js"></script>
 </body>
+
 </html>
-                   
