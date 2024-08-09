@@ -21,7 +21,7 @@ Sinta-se à vontade para explorar, contribuir e apoiar esta iniciativa. Seu feed
 
 ## Contato
 
-Para mais informações ou sugestões, entre em contato conosco através do [j.lima08@escola.pr.gov.br].
+Para mais informações ou sugestões, entre em contato conosco através do j.lima08@escola.pr.gov.br.
 
 Obrigado por apoiar o projeto e a economia local!
 
