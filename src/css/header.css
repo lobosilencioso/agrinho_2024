@@ -5,6 +5,7 @@ header {
     position: sticky;
     top: 0;
     background-color: var(--cor-primaria-1);
+    z-index: 3;
 }
 
 .navbar {
