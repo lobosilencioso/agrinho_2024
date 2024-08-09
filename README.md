@@ -17,6 +17,7 @@ Sinta-se à vontade para explorar, contribuir e apoiar esta iniciativa. Seu feed
 ## Agradecimentos
 
 - **Imagens**: Coletadas dos sites Pexels, Pixabay e Unsplash.
+- **Bibliotecas Externas e animações**: Coletadas dos sites Font Awesome, Scroll Reveal.
 
 ## Contato
 
