@@ -4,7 +4,7 @@ Bem-vindo ao projeto **"O Campo Indo Até Você"**, uma solução inovadora dese
 
 ## Sobre
 
-Este projeto conecta consumidores diretamente com produtores locais, oferecendo uma plataforma para a compra de produtos rurais com qualidade e frescor. Criado a partir de uma atividade interdisciplinar envolvendo Pensamento Computacional e Educação Financeira, o projeto visa fortalecer a economia local e proporcionar uma experiência prática aos alunos em programação, finanças e comunicação.
+Este projeto conecta consumidores diretamente com produtores locais, oferecendo uma plataforma para a compra de produtos rurais com qualidade e frescor. Criado a partir de uma atividade interdisciplinar envolvendo Matemática II trilha-programação e Educação Financeira, o projeto visa fortalecer a economia local e proporcionar uma experiência prática aos alunos em programação, finanças e comunicação.
 
 ## Objetivo
 
@@ -17,7 +17,6 @@ Sinta-se à vontade para explorar, contribuir e apoiar esta iniciativa. Seu feed
 ## Agradecimentos
 
 - **Imagens**: Coletadas dos sites Pexels, Pixabay e Unsplash.
-- **Códigos**: Baseados em tutoriais disponíveis no YouTube.
 
 ## Contato
 
